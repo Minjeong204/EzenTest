@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date</title>
+    <script>
+      document.write(Date() + "<br>");
+      var date1 = new Date();
+      var hour1 = date1.getHours();
+      var minute1 = date1.getMinutes();
+      var second1 = date1.getSeconds();
+      document.write(hour1 + "시간");
+      document.write(minute1 + "분");
+      document.write(second1 + "초");
+      document.write("<hr>");
+
+      //   var date2 = new Date();
+      //   var hour2 = date2.getHours();
+      //   if (hour2 < 12) {
+      //     document.write("오전");
+      //   } else {
+      //     document.write("오후");
+      //   }
+
+      //   var date3 = new Date();
+      //   var hour3 = date3.getHours();
+      //   switch (true) {
+      //     case hour3 < 12:
+      //       alert("오전");
+      //       break;
+
+      //     case hour3 < 18:
+      //       alert("오후");
+      //       break;
+
+      //     default:
+      //       document.write("저녁");
+      //       break;
+      //   }
+      document.write("<hr>");
+      var date4 = new Date();
+      var day5 = date4.getDay();
+      document.write(day5 + "<br>");
+      if (day5 == 2) {
+        document.write("<img src='images/img1.jpg' title='월요일'>");
+
+        document.write("<img src='images/img2.jpg' title='화요일'>");
+        document.write("<img src='images/img3.jpg' title='수요일'>");
+        document.write("<img src='images/img4.jpg' title='목요일'>");
+        document.write("<img src='images/img5.jpg' title='금요일'>");
+        document.write("<img src='images/img6.jpg' title='토요일'>");
+
+        document.write("<img src='images/img7.jpg' title='일요일'>");
+      }
+      document.write("<hr>");
+      var date5 = new Date();
+      var year5 = date5.getFullYear();
+      document.write("현재연도: " + year5, "<br>");
+      var month5 = date5.getMonth();
+      document.write("현재 월: " + (month5 + 1), "<br>");
+      var date5_ = date5.getDate();
+      document.write("현재 일 : " + date5_, "<br>");
+
+      var date6 = new Date();
+      var year6 = date6.getFullYear();
+      var date6_1 = new Date(year6, 11, 31);
+      var date6_2 = date6_1 - date6;
+      document.write(date6_2);
+      var result6 = Math.ceil(date6_2 / (1000 * 60 * 60 * 24));
+      document.write("내일부터 올해말일까지는" + result6 + "일 남았습니다.");
+    </script>
+  </head>
+  <body></body>
+</html>

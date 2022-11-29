@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body,
+div,
+h1,
+h2,
+h3,
+p,
+img,
+select,
+option,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+input,
+select,
+option {
+    font: normal 14px/1.5em nanum, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+@font-face {
+    font-family: nanum;
+    src: url(../font/NanumGothic.eot);
+    src: url("../font/NanumGothic.eot?#lefix")format("embaded-opentype");
+    src: url("../font/NanumGothic.ttf")format("truetype");
+    src: url("../font/NanumGothic.woff")format("woff");
+}
+
+#wrap {
+    border: 1px solid black;
+    width: 1300px;
+    height: 7810px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#top {
+    width: 1010px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    
+}
+
+#top > h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#top > div {
+    float: right;
+    width: 300px;
+    height: 85px;
+    display: inline;
+    clear: both;
+    border: 1px solid black;
+}
+
+#top > div > p > select {
+    float: left;
+    height: 30px;
+
+}
+
+#top > div > p > input {
+    float: left;
+    box-sizing: border-box;
+    height: 30px;
+    margin-left: 5px;
+    outline: none;
+
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body,
+div,
+h1,
+p,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 796px;
+    height: 240px;
+    padding-left: 20px;
+}
+
+#reviews {
+    height: 50px;
+   border-bottom: 2px solid #f1f1f1;
+}
+
+#reviews > h1 {
+    float: left;
+    font-weight: normal;
+
+}
+
+#wrap #reviews > p {
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+
+
+}
+
+#star {
+    height: 185px;
+}
+
+#box1 {
+    float: left;
+    margin-left: 5px;
+}
+
+#box1 > h2 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#box2 {
+    float: left;
+    margin-left: 80px;
+}
+
+#box2 > div {
+    width: 530px;
+    height: 20px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+
+}
+
+#box2 > div:nth-child(1) {
+    margin-top: 15px;
+}
+
+
+#box2 > div > p {
+    font-size: 0px;
+}
+#box2 > div:nth-child(1) > p {
+    width: 320px;
+    height: 20px;
+background-color: #4cb050;
+}
+#box2 > div:nth-child(2) > p {
+    width: 160px;
+    height: 20px;
+background-color: #2196f3;
+}
+#box2 > div:nth-child(3) > p {
+    width: 54px;
+    height: 20px;
+background-color: #00bcd5;
+}
+#box2 > div:nth-child(4) > p {
+    width: 20px;
+    height: 20px;
+background-color: #ff9801;
+}
+#box2 > div:nth-child(5) > p {
+    width: 80px;
+    height: 20px;
+background-color: #f54337;
+}
+
+
+#box3 {
+    float: right;
+    margin-right: 5px;
+}
+
+#box3 > p {
+    margin-top: 10px;
+    text-align: right;
+}

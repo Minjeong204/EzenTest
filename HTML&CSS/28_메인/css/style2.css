@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body,
+div,
+h1,
+header,
+img,
+ul,
+li,
+a,
+nav,
+p,
+strong,
+span,
+h3,
+h2,
+h4,
+article,
+footer,
+address {
+    margin: 0;
+    padding: 0;
+}
+
+header nav,
+article,
+footer {
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+body,
+h1,
+h2,
+h3 {
+    font: normal 12px/1.5em nanum, sans-serif;
+    color: #333333;
+}
+
+@font-face {
+    font-family: nanum;
+    src: url(../font/NanumGothic.eot);
+    src: url("../font/NanumGothic.eot?#lefix")format("embaded-opentype");
+    src: url("../font/NanumGothic.ttf")format("truetype");
+    src: url("../font/NanumGothic.woff")format("woff");
+}

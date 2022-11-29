@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.ex1 {
+  padding-left: 20px;
+  color: #cc66ff;
+}
+.ex1 li:first-child {
+  background-color: #99ff33;
+}
+.ex1 li:nth-child(2) {
+  background-color: #333333;
+}
+.ex1 li:nth-child(3) {
+  background-color: #999999;
+}
+.ex1 li:last-child {
+  background-color: pink;
+}
+#tb {
+  border-collapse: collapse;
+  width: 300px;
+}
+#tb th,
+#tb td {
+  border: 1px solid #333333;
+  width: 100px;
+  height: 20px;
+}
+#tb th {
+  background-color: #eaeaea;
+}
+#tb td {
+  text-align: center;
+  font-weight: bold;
+}

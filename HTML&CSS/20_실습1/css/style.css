@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+ul,
+li {
+    list-style: none;
+}
+
+#wrap {
+    width: 1100px;
+    height: 645px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#wrap h3 {
+    text-align: center;
+    border-bottom: 3px solid #bfb383;
+    padding-bottom: 10px;
+}
+
+#wrap h4 {
+    margin-left: 10px;
+}
+
+#wrap #step_wrap {
+    width: 1100px;
+    height: 155px;
+
+
+}
+
+#wrap #step_wrap li {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    list-style: none;
+    width: 240px;
+    height: 250px;
+    margin-bottom: 20px;
+
+}
+
+#wrap #step_wrap li p img {
+    margin-left: 70px;
+
+}
+
+#wrap #step_wrap li span {
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+#wrap #step_wrap li:first-child {
+    background: url(../images/step_b1.png) no-repeat left 140px;
+}
+
+#wrap #step_wrap li:nth-child(2) {
+    background: url(../images/step_b2.png) no-repeat left 140px;
+}
+
+#wrap #step_wrap li:nth-child(3) {
+    background: url(../images/step_b3.png) no-repeat left 140px;
+}
+
+#wrap #step_wrap li:nth-child(3) span {
+    margin-left: 80px;
+}
+
+#wrap #step_wrap li:nth-child(4) {
+    background: url(../images/step_b4.png) no-repeat left 140px;
+}
+
+#wrap #step_wrap li:nth-child(4) span {
+    margin-left: 80px;
+}
+
+#wrap p.note1 {
+    width: 1100px;
+    height: 80px;
+    margin-top: 120px;
+    padding-top: 40px;
+    text-align: center;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+strong {
+    color: #129054;
+}
+
+#wrap .note2 li {
+    line-height: 2em;
+    text-indent: 10px;
+}
+
+#wrap .note2 li::before {
+    content: "\2022  ";
+    color: green;
+}

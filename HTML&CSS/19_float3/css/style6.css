@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+body,
+div,
+h3,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 15px/1.5em "맑은 고딕", "Malgun Gothic", sans-serif;
+    color: #333333;
+}
+
+#wrap {
+    width: 1200px;
+    height: 630px;
+    border: 1px solid green;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrap h3 {
+    border: 1px solid green;
+    height: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: #666666;
+    background: url(../images/top_bg.jpg) repeat-x left top;
+    padding-top: 20px;
+}
+
+#top_img {
+    width: 1000px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l_img {
+    float: left;
+    width: 496px;
+    height: 529px;
+}
+
+.l_img > img {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.r_img {
+    float: right;
+    width: 486px;
+    height: 528px;
+}
+
+.r_img > img {
+    float: left;
+    border: 1px solid #666666;
+    box-sizing:border-box;
+}
+.r_img > img:nth-child(2){border-left: none;}
+.r_img > img:nth-child(3){border-top: none; clear:both}
+.r_img > img:nth-child(4){border-top: none;border-left: none;}

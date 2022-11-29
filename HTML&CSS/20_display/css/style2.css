@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+ul,
+li {
+    list-style: none;
+}
+
+ul,
+li,
+a,
+hr,
+p,
+span,
+div,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.ex2 {
+    border: 1px solid blue;
+    height: 80px;
+    display: none;
+}
+
+.ex3 {
+    background: url(../images/dimchage1.jpg) no-repeat;
+    width: 488px;
+    height: 396px;
+}
+
+.ex4 {
+    border: 1px solid green;
+    height: 8px;
+    visibility: hidden;
+}
+
+.ex4 {
+    visibility: none;
+}
+
+.ex6 li {
+    color: green;
+}
+
+.ex6 li::before {
+    content: "\2022";
+    color: red;
+    /*    background: yellow;*/
+    width: 10px;
+    display: inline-block;
+}
+
+.ex7 {
+    background-color: #993333;
+    width: 500px;
+    height: 56px;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 30px;
+    height: 50px;
+}
+
+.ex7 a {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.ex7 a:hover {
+    background: #6699ff;
+}
+
+.ex7::-webkit-scrollbar {
+    /*스크롤바 높이*/
+    height: 6px;
+}
+
+.ex7::-webkit-scrollbar-track {
+    /*스크롤바 색상*/
+    background-color: pink;
+}
+
+.ex7::-webkit-scrollbar-thumb {
+    /*드래그 가능한 스크롤바 색상*/
+    background-color: orange;
+}
+
+.ex7::-webkit-scrollbar-thumb:active {
+    /*드래그 가능한ㅅ ㅡ크롤바 색상위에서 마우스 누르고 있을 때*/
+    background-color: red;
+}
+
+.ex8 {
+    background-color: #993333;
+    width: 500px;
+    height: 56px;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 30px;
+    height: 50px;
+    direction: rtl;
+}
+
+.ex8 a {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.ex8 a:hover {
+    background: #6699ff;
+}
+
+.ex8::-webkit-scrollbar {
+    /*스크롤바 높이*/
+    height: 6px;
+}
+
+.ex8::-webkit-scrollbar-track {
+    /*스크롤바 색상*/
+    background-color: pink;
+}
+
+.ex8::-webkit-scrollbar-thumb {
+    /*드래그 가능한 스크롤바 색상*/
+    background-color: orange;
+}
+
+.ex8::-webkit-scrollbar-thumb:active {
+    /*드래그 가능한ㅅ ㅡ크롤바 색상위에서 마우스 누르고 있을 때*/
+    background-color: green;
+}
+
+.ex9 {
+    background-color: #eaeaea;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.ex9 li {
+    display: inline;
+    font-size: 17px;
+}
+
+.ex9 li + li::before {
+    content: "/ ";
+
+}
+
+.ex9 li:first-child a {
+    color: #01447e;
+}
+
+.ex9 li a:hover {
+    color: #0275db;
+    text-decoration: underline;
+}
+
+.ex10 {
+    width: 800px;
+    height: 40px;
+    background-color: #e9e9e9;
+    margin: 30px 0;
+}
+
+.ex10 ul {
+    /*    border: 1px solid red;*/
+    float: left;
+    height: 40px;
+}
+
+.ex10 ul li {
+    float: left;
+}
+
+.ex10 ul li a {
+    width: 100px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+
+.ex10 ul li a:hover {
+    background-color: #cccccc;
+}
+
+.ex10 ul li a.active {
+    background-color: #6699cc;
+    color: white;
+}
+
+.ex10 div {
+    /*    border: 1px solid blue;*/
+    float: right;
+    width: 185px;
+    height: 35px;
+    margin-top: 2px;
+}
+
+.ex10 div input[type="search"] {
+    float: left;
+    width: 150px;
+    height: 35px;
+    outline: none;
+    text-indent: 1em;
+}
+
+.ex10 div button[type="button"] {
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-color: #999999;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.ex11 {
+    clear: both;
+    border: 1px solid red;
+    height: 35px;
+    margin: 30px 0;
+}
+
+.ex11 li {
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin: 0 1px;
+}
+
+.ex11 li img:nth-child(2) {
+    display: none;
+}
+
+.ex11 li:hover img:nth-child(2) {
+    display: block;
+}
+
+.ex11 li:hover img:nth-child(1) {
+    display: none;
+}
+
+.ex12 {
+    border: 1px solid red;
+    height: 150px;
+    margin: 30px 0;
+}
+
+.ex12 input[type="checkbox"] + div {
+    background-color: #eaeaea;
+    width: 300px;
+    height: 100px;
+    display: none;
+}
+
+.ex12 input[type="checkbox"]:checked + div {
+    display: block;
+}

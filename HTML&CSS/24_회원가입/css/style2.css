@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+body,
+div,
+h3,
+form,
+p,
+label,
+select,
+option,
+span,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+input,
+textarea,
+select,
+option {
+    font: normal 14px/1.5em nanum, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+input,
+select,
+option,
+textarea {
+    outline: none;
+}
+
+
+
+
+@font-face {
+    font-family: nanum;
+    src: url(../font/NanumGothic.eot);
+    src: url("../font/NanumGothic.eot?#lefix")format("embaded-opentype");
+    src: url("../font/NanumGothic.ttf")format("truetype");
+    src: url("../font/NanumGothic.woff")format("woff");
+}
+
+#wrap {
+    width: 602px;
+    height: 470px;
+    margin: 20px auto;
+}
+
+#wrap > h3 {
+    height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#form_wrap {
+    width: 600px;
+    border: 1px solid #999999;
+}
+
+.line {
+    height: 40px;
+    border-bottom: 1px solid #999999;
+    clear: both;
+}
+
+.line2 {
+    height: 130px;
+    border-bottom: none;
+}
+
+.l_con {
+    background-color: #ccccff;
+    width: 100px;
+    height: 40px;
+    display: block;
+    float: left;
+    text-indent: 10px;
+    line-height: 40px;
+}
+
+.l_con2 {
+    height: 130px;
+}
+
+.r_con {
+    float: left;
+    width: 500px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: 40px;
+
+
+}
+
+.r_con2 {
+    height: 130px;
+}
+
+#wrap input,
+u_tel1,
+email3 select,
+#write {
+    border: 1px solid #999999;
+}
+
+.infor {
+    color: red;
+}
+
+#u_name,
+#u_id,
+#u_pwd {
+    width: 200px;
+    height: 25px;
+    text-indent: 10px;
+}
+
+#chk1,
+#chk2 {
+    vertical-align: -2px;
+}
+
+/*연락처*/
+.tel1,
+.tel2,
+.tel3,
+.tel4,
+.tel5 {
+    float: left;
+}
+
+.tel2,
+.tel4 {
+    margin: 0 5px;
+}
+
+#u_tel1,
+#u_tel2,
+#u_tel3 {
+    width: 100px;
+    height: 25px;
+    text-indent: 10px;
+}
+
+.email1,
+.email2,
+.email3 {
+    float: left;
+}
+
+.email2 {
+    margin: 0 5px;
+}
+
+#u_email,
+email3 select {
+    height: 25px;
+    text-indent: 10px;
+}
+
+#write {
+    width: 300px;
+    height: 100px;
+    margin-top: 13px;
+    resize: none;
+}
+
+.btn {
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn input {
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background-color: #999999;
+    color: #ffffff;
+}

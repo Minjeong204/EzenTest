@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body {
+    line-height: 1.5em;
+    font-family: "맑은고딕", "Malgun Gothic", "sans-serif";
+    font-size: 12px;
+}
+
+div,
+p,
+img,
+h4,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+     list-style: none;
+}
+
+#wrap {
+    border: 1px solid #eaeaea;
+    width: 330px;
+    height: 500px;
+}
+#wrap > p {
+    width: 330px;
+    height: 261px;
+}
+
+
+#wrap h4 {
+    margin-left: 38px;
+    letter-spacing: 3px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    background: url(../images/line.jpg) no-repeat left bottom;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+
+#wrap ul {margin-left: 38px;
+padding-left: 10px;}
+
+#wrap > ul > li {
+    
+    list-style: square;
+/*    padding-left: 10px;*/
+    line-height: 2em;
+    color: rgb(126, 126, 126);
+}

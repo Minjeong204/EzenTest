@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body,
+div,
+table,
+td,
+th,
+tr,
+span,
+br,
+img,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/*reset*/
+ul,
+li {
+    list-style: none;
+}
+
+/*블릿기호 초기화*/
+#wrap {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#wrap img {
+    width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+/*로고*/
+#tb {
+    border-collapse: collapse;
+    width: 700px;
+    position: relative;
+}
+
+/*테이블*/
+#tb caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*캡션*/
+#tb td,
+#tb th {
+    border: 1px solid #666666;
+    text-align: center;
+}
+
+#tb th {
+    background-color: #c8edff;
+    font-size: 14px;
+    width: 60px;
+}
+
+#wrap tr:first-child {
+    border-top: 5px solid #ff8000;
+
+}
+
+/*첫번째 줄 상단선*/
+#wrap tr:last-child td {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-align: left;
+
+}
+
+#wrap tr:last-child ul {
+    
+    padding-left:0;
+    width: 700px;
+}
+
+#wrap tr:first-child > th {
+    height: 30px;
+}
+
+td {
+    font-size: 13px;
+}
+
+#tb span {
+    text-decoration: underline;
+}
+
+/*강조 및줄*/
+
+
+#list li {
+    font-size: 12px;
+
+}
+
+#list li::before {
+    content: "\2022  ";
+}

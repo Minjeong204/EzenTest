@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+p {
+    font-weight: bold;
+    text-decoration: line-through;
+    color: green;
+}
+
+h2 {
+    color: #cc0066;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: blue;
+    word-spacing: 50px;
+}
+

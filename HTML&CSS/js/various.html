@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>various</title>
+    <script>
+      //#1 var, let, const
+      //조건식에서 변수선언 if(조건식){실행문}
+
+      //var
+      var msg1 = "Hello";
+      if (true) {
+        var msg1 = "안녕하세요";
+        console.log(msg1);
+      }
+      console.log(msg1);
+
+      //let
+      let msg2 = "Hello";
+      if (true) {
+        let msg2 = "안녕하세요";
+        console.log(msg2);
+      }
+      console.log(msg2);
+      //const
+      const msg3 = "Hello";
+      if (true) {
+        const msg3 = "안녕하세요";
+        console.log(msg3);
+      }
+      console.log(msg3);
+
+      //함수구문에서 변수선언
+      //var
+      var msg4 = "hello";
+      function printOut1() {
+        var msg4 = "안녕하세요";
+        console.log(msg4);
+      }
+      printOut1();
+      console.log(msg4);
+      //let
+      let msg5 = "hello";
+      function printOut2() {
+        let msg5 = "안녕하세요";
+        console.log(msg5);
+      }
+      printOut2();
+      console.log(msg5);
+      //const
+      const msg6 = "hello";
+      function printOut3() {
+        const msg6 = "안녕하세요";
+        console.log(msg6);
+      }
+      printOut3();
+      console.log(msg6);
+
+      //var
+      if (true) {
+        var age1 = 20;
+        console.log(`1. 당신의 나이는 : ${age1}`);
+      }
+      console.log(`2. 당신의 나이는 :  ${age1}`);
+      //let
+      if (true) {
+        let age2 = 21;
+        console.log(`1. 당신의 나이는 : ${age2}`);
+      }
+      // console.log(`2. 당신의 나이는 :  ${age2}`); //코드 에러
+
+      if (true) {
+        let age3 = 22;
+        console.log(`1. 당신의 나이는 : ${age3}`);
+      }
+      let age3 = 24;
+      console.log(`2. 당신의 나이는 : ${age3}`);
+
+      //var과 let의 혼합
+      if (true) {
+        var age4 = 24;
+        console.log(`1. 당신의 나아는 ${age4}`);
+      }
+      // let age4 = 24; 코드오류
+      console.log(`1. 당신의 나아는 ${age4}`);
+
+      let cooki = "아이비";
+      console.log(cooki);
+      let cooki2 = "참크래커";
+      console.log(cooki2);
+
+      //var과 let의 혼합
+      if (true) {
+        let age5 = 24;
+        console.log(`1. 당신의 나아는 ${age5}`);
+      }
+      var age5 = 24;
+      console.log(`2. 당신의 나아는 ${age5}`);
+      //오류없음~
+
+      //#3. const 상세
+      const number1 = 20;
+      const string1 = "자바스크립트";
+      console.log(`number1 : ${number1}`);
+      console.log(`string1 : ${string1}`);
+
+      const number2 = 20;
+      const string2 = "자바스크립트";
+      // number2 = 32; 코드오류(데이터 교체불가)
+      // string2 = "안녕!!!" 코드오류(데이터 교체불가)
+      console.log(`number2 : ${number2}`);
+      console.log(`string2 : ${string2}`);
+
+      //배열데이터 const
+      //추가(push() 끝, unshift() 처음) / 삭제(pop(),shift())
+      const num_arr = [23, 30, 35];
+      num_arr.push(40);
+      console.log(num_arr);
+      const str_arr = ["img_01.jpg", "img_02.jpg"];
+      // str_arr = ["photo1", "photo2"]; 배열데이터 자체형식을 신규로 갱신시 에러발생
+      console.log(str_arr);
+
+      const dessert = {
+        keyword: "빙그레 바나나 우유",
+        category: "간식",
+      };
+
+      dessert.keyword = "빙그레 메로나";
+      console.log(`오늘의 간식은 ${dessert.keyword}입니다`);
+
+      dessert.guest = "홍길동";
+      console.log(`간식을 먹은 사람 : ${dessert.guest}`);
+      console.log(dessert);
+
+      delete dessert.category;
+      console.log(dessert);
+
+      //#4. 가변변수 let : 변수 데이터 자체를 갱신(교체)할 수 있음
+      let num = 1;
+      num = num * 5;
+      num = 23;
+      console.log(num);
+
+      let str = "문자형 데이터";
+      str = `I'm ${str}`;
+      console.log(str); //I'm 문자형 데이터
+
+      let arr = ["color"];
+      arr = ["red", "orange", "yellow"];
+      console.log(arr);
+
+      let obj = { hero: "홍길동" };
+      obj = { 영화제목: "설국열차", 주인공: "송강호" };
+      console.log(obj);
+
+      //#5 const Object.assign : 객체내부에 새로운 값으로 할당할 수 있음
+      // Object.assign(객체변수,{기존 key1: 신규 value1}) 기존 key1의 value1값을 신규 value1로 교채
+      const obj2 = {};
+      Object.assign(obj2, { new0: "bts" }, { new1: "아이유" });
+      console.log(obj2);
+      Object.assign(obj2, { new0: "김연자" });
+      console.log(obj2);
+      console.clear();
+    </script>
+  </head>
+  <body></body>
+</html>

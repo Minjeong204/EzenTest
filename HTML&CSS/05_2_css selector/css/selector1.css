@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*전체선택자*/
+* {
+    font-size="15px";
+    font-family: "돋움", Dotum, san-selif;
+    /*    line-height: 2;*/
+
+
+    /*    line-height: 2em;*/
+    line-height: 200%;
+    /*    line-height: 2;*/
+    /*    line-height: 2em;*/
+
+}
+
+dt {
+    background-color: #99cc33;
+    color: #FFFFFF;
+    font-SIZE: 17PX;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: 33px;
+    text-align: center;
+}
+
+#tit {
+    background-color: #99cc33;
+}
+
+
+#tit2 {
+    background-color: #99cc33;
+    width: 500px;
+    height: 390ox;
+    text-align: justfy;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 15px;
+    /*    w 500 +15+15 h 390+15+15*/
+}
+
+/*클래스 선택자*/
+.tit {
+    color: yellow;
+    /*    margin: 0 auto;*/
+    margin-left: auto;
+    margin-right: auto;
+}

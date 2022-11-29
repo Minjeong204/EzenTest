@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+div,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*font-weight: normal; font-size: 16px; left: 1.5em;font-family: verdanav ,sans-serfont serlf;*/
+    font: normal 16px/1.5em verdana, sans-serif;
+}
+
+#list1 li {
+    background: url(../images/icon4.gif) no-repeat left 5px;
+    padding-left: 20px;
+    color: #cc0033;
+    font-weight: bold;
+}
+
+#list1 li ul {
+    border-left: 1px dotted #333333;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#list1 li ul li {
+    color: #000000;
+    background: url(../images/icon3.gif) no-repeat;
+
+}
+
+#list1 li ul li ul {
+    border-left: none;
+}
+
+#list1 li ul li ul li {
+    font-weight: normal;
+    background-image: url(../images/icon2.gif);
+}
+
+#list2 li {
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #0066fd;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#list2 li ul {
+    border-left: 1px dotted #333333;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#list2 li ul li ul {
+    border-left: none;
+}
+
+#list2 li ul li {
+    color: #000000;
+    font-size: 16px;
+
+}
+
+#list2 li ul li ul li {
+    font-weight: normal;
+    background: url(../images/icon1.png) no-repeat;
+    margin-left: 15px;
+    font-size: 12px;
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#ex1 {
+    border-collapse: collapse;
+    width: 660px;
+}
+
+#tit {
+    text-decoration: underline double;
+    letter-spacing: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#ex1 th,
+#ex1 td {
+    border: 1px solid black;
+    width: 185px;
+    height: 35px;
+    text-align: center;
+}
+
+#ex1 th {
+    width: 35px;
+    font-weight: normal;
+}
+
+#ex1 #inv1,
+#ex1 #inv3 {
+    width: 130px;
+}
+
+#ex1 #inv2,
+#ex1 #inv4 {
+    width: 185px;
+}
+
+

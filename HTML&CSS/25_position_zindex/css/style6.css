@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+div,
+input label,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 15px/1.5em "맑은 고딕", "Malgun Gothic", sans-serif;
+    color: #333333;
+}
+
+#wrap1 {
+    margin: 30px;
+}
+
+.container1 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid red;
+    padding-left: 35px;
+    position: relative;
+}
+
+.container1 input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.check1 {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    height: 25px;
+    width: 25px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    color: transparent;
+}
+
+.check1::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    background-color: #ffffff;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: none;
+}
+
+.container1 input:checked + .check1 {
+    background-color: #cc9933;
+}
+
+.container1 input:checked + .check1::after {
+    display: block;
+}
+
+#wrap2 {
+    margin: 30px;
+}
+
+.container2 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid red;
+    padding-left: 35px;
+    position: relative;
+}
+
+.container2 input {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.check2 {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    height: 25px;
+    width: 25px;
+    background-color: #eaeaea;
+    color: transparent;
+}
+
+.check2::after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    background-color: #ffffff;
+    width: 8px;
+    height: 8px;
+}
+
+.container2 input:checked + .check2 {
+    background-color: #cc9933;
+}
+
+.container2 input:checked + .check1::after {
+    display: block;
+}
+
+#wrap3 {
+    margin: 30px;
+}
+
+.container3 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid red;
+    padding-left: 35px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+.container3 input {
+    cursor: pointer;
+}
+
+.container3 input {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
+
+.check3 {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    height: 15px;
+    width: 15px;
+    background-color: #eaeaea;
+    color: transparent;
+}
+
+.check3::after {
+    content: "§";
+    position: absolute;
+    left: 3px;
+    top: 0;
+    font-size: 11px;
+    line-height: 15px;
+    display: none;
+}
+
+.container3 input:checked + .check3 {
+    background-color: yellow;
+}
+.container3 input:checked + .check3::after {
+   display: block;
+}

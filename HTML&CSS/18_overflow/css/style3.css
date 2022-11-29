@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body {
+    font: normal 12px/150% "맑은 고딕", "Malgun Gothic", "sans-serif";
+}
+
+#ex1 {
+    border: 1ps solid #cccccc;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+#ex1::-webkit-scrollbar {
+    width: 4px;
+}
+
+#ex1::-webkit-scrollbar-track {
+    background-color: red;
+}
+
+#ex1::-webkit-scrollbar-thumb {
+    background-color: blue;
+}
+
+#ex1::-webkit-scrollbar-thumb:hover {
+    background-color: yellow;
+}
+
+#ex1::-webkit-scrollbar-thumb:active {
+    background: orange;
+}
+
+#ex2 {
+    border: 1ps solid #cccccc;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+#ex2::-webkit-scrollbar {
+    width: 15px;
+}
+
+#ex2::-webkit-scrollbar-track {
+    background-color: red;
+    border-radius: 10px;
+}
+
+#ex2::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+#ex3 {
+    border: 1ps solid #cccccc;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+#ex3::-webkit-scrollbar {
+    width: 4px;
+}
+
+#ex3::-webkit-scrollbar-track {
+    background-color: red;
+}
+
+#ex3::-webkit-scrollbar-thumb {
+    background-color: blue;
+}
+
+#ex3::-web-kit-scrollbar-thumb:hover {
+    background-color: yellow;
+}

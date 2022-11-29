@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body,
+div,
+p,
+img,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 12px/1.5em "맑은 고딕", "Malgun Gothic", sans-serif;
+    color: #333333;
+}
+
+#wrap {
+    width: 840px;
+    height: 440px;
+
+}
+
+#wrap > div {
+
+    width: 800px;
+    height: 100px;
+    border-radius:0 20px 0 20px;
+}
+
+#wrap img {
+    border-radius: 120px;
+    width: 66px;
+    height: 66px;
+    margin-top: 15px;
+}
+
+#wrap > div:nth-of-type(odd) {
+    background-color: #f1f1f1;
+}
+
+#wrap > div:nth-of-type(odd) img {
+    margin-right: 20px;
+    float: left;
+}
+
+#wrap > div:nth-of-type(odd) > p:nth-child(2) {
+
+    float: left;
+    line-height: 100px;
+}
+
+#wrap > div:nth-of-type(odd) > span {
+
+    float: right;
+    padding-top: 80px;
+    margin-right: 10px;
+
+}
+
+#wrap > div:nth-of-type(even) {
+    background-color: #dddddd;
+    overflow: hidden;
+
+
+
+}
+
+#wrap > div:nth-of-type(even) div {
+    float: left;
+    margin-left: 10px;
+
+
+
+
+}
+
+
+
+
+#wrap > div:nth-of-type(even) > div > span {
+  
+    margin-top: 80px;
+    height: 40px;
+
+
+}
+
+#wrap > div:nth-of-type(even) > div > p {
+    
+    margin-left: 40px;
+    margin-top: 40px;
+    height: 40px;
+
+
+}
+
+
+#wrap > div:nth-of-type(even) > p:nth-child(2) {
+
+    float: right;
+
+}

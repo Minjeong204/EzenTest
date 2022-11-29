@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#tb {
+        border-collapse: collapse;
+}
+
+#tb caption {
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    border-bottom: 3px double black;
+    margin: 20px auto;
+    height: 30px;
+    text-align: center;
+}
+
+
+#tb td,
+#tb th {
+    border: solid 1px black;
+    padding-left: 5px;
+}
+
+#tb td {
+    padding-left: 10px;
+
+}
+
+#tb .dash1 {
+    border-bottom: dashed 1px black;
+}
+
+#tb .dash2 {
+    border-bottom: dashed 1px black;
+    border-top: dashed 1px black;
+}
+
+#tb .dash3 {
+    border-top: dashed 1px black;
+}

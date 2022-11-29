@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body {
+  font-family: "맑은 고딕", "Malgun Gothic", sans-serif;
+}
+#wrap1 {
+  margin: 30px;
+  width: 780px;
+  border: 1px solid green;
+  overflow: hidden;
+}
+#container1 ul li {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+#container1 ul li img {
+  width: 250px;
+  height: 250px;
+}
+#wrap2 {
+  margin: 30px;
+  width: 780px;
+  border: 1px solid green;
+  overflow: hidden;
+}
+#container2 ul li {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+#container2 ul li img {
+  width: 250px;
+  height: 250px;
+}
+#wrap3 {
+  margin: 30px;
+  width: 780px;
+  border: 1px solid green;
+  overflow: hidden;
+}
+#container3 ul li {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+#container3 ul li img {
+  width: 250px;
+  height: 250px;
+}
+#wrap4 {
+  margin: 30px;
+  width: 780px;
+  border: 1px solid green;
+  overflow: hidden;
+}
+#container4 ul li {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+#container4 ul li img {
+  width: 250px;
+  height: 250px;
+}
+#wrap5 {
+  margin: 30px;
+  width: 780px;
+  border: 1px solid green;
+  overflow: hidden;
+}
+#container5 ul li {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
+#container5 ul li img {
+  width: 250px;
+  height: 250px;
+}

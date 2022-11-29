@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>테이블 실습 1-2</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <div id="tbdiv">
+        <table id="tb">
+            <caption>축제/공연/행사</caption>
+            <tr>
+                <th scope="row" id="fes1">축제/행사 명</th>
+                <th scope="row" id="fes2">유형</th>
+                <th scope="row" id="fes3">기간</th>
+                <th scope="row" id="fes4">지역</th>
+            </tr>
+            <tr>
+                <td headers="fes1">동물의 사육제</td>
+                <td rowspan="2" headers="fes2">전시회</td>
+                <td headers="fes3">2012.07.27~08.26</td>
+                <td headers="fes4">서울 서초구</td>
+            </tr>
+            <tr>
+                <td headers="fes1">만해축전</td>
+                <td headers="fes3">2012.08.11~08.14</td>
+                <td headers="fes4">강원도 인제군</td>
+            </tr>
+            <tr>
+                <td headers="fes1">남해 바다미술제</td>
+                <td rowspan="2" headers="fes2">일반축제</td>
+                <td headers="fes3">2012.06.15~09.28</td>
+                <td headers="fes4">경상남도 남해군</td>
+            </tr>
+            <tr>
+                <td headers="fes1">프로방스 축제</td>
+                <td headers="fes3">2012.05.01~10.31</td>
+                <td headers="fes4">경기도 파주</td>
+            </tr>
+            <tr>
+                <td headers="fes1">대한민국 우표 전시회</td>
+                <td headers="fes2">전시회</td>
+                <td headers="fes3">2012.08.09~08.13</td>
+                <td headers="fes4">서울 강남구</td>
+            </tr>
+            <tr>
+                <td headers="fes1">덕수궁 풍류</td>
+                <td rowspan="2" headers="fes2">전통공연</td>
+                <td headers="fes3">2012.03.24~09.27</td>
+                <td rowspan="3" headers="fes4">서울 중구</td>
+            </tr>
+            <tr>
+                <td headers="fes1">전통문화체험 미수다</td>
+                <td headers="fes3">2012.01.20~12.22</td>
+            </tr>
+            <tr>
+                <td headers="fes1">서울 태권도 관광</td>
+                <td headers="fes2">행사</td>
+                <td headers="fes3">2012.04.07~11.30</td>
+            </tr>
+
+
+        </table>
+    </div>
+</body>
+
+</html>

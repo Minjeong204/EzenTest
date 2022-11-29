@@ -1,0 +1,34 @@
+@charset "utf=8";
+
+#frame {
+    width: 565px;
+    height: 515px;
+    background-color: #ff99cb;
+    color: rgb(102, 102, 102);
+    border: 3px solid black;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    margin-left: 85px;
+
+}
+
+
+#ingrd {
+
+    background-color: rgb(255, 255, 205);
+    border: 1px solid black;
+    width: 220px;
+    height: 115px;
+    padding-top: 6px;
+    margin-left: 36px;
+    padding-left: 8px;
+    line-height: 18px;
+
+}
+
+#recp {
+    padding-right: 35px;
+
+
+}

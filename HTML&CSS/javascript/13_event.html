@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이벤트</title>
+    <script>
+      function ex2(i) {
+        i.innerHTML = "내용변경했다!!!!!";
+      }
+      function ex3() {
+        document.getElementById("ex3").innerHTML = Date();
+      }
+      function ex5() {
+        var i = document.getElementById("ex5");
+        i.value = i.value.toUpperCase();
+      }
+      function ex6_1(j) {
+        j.innerHTML = "확인1";
+        j.style.backgroundColor = "yellow";
+      }
+
+      function ex6_2(j) {
+        j.innerHTML = "확인2";
+        j.style.backgroundColor = "pink";
+      }
+
+      function ex7_1(k) {
+        k.style.backgroundColor = "#1ec5e5";
+        k.innerHTML = "onmousedown이벤트 입니다.";
+      }
+
+      function ex7_2(k) {
+        k.style.backgroundColor = "";
+        k.innerHTML = "onmouseup이벤트 입니다.";
+      }
+    </script>
+  </head>
+  <body>
+    <p onclick="this.innerHTML='내용변경!!!'">클릭!!</p>
+    <hr />
+    <p onclick="ex2(this)">클릭!!</p>
+    <hr />
+    <p id="ex3">확인</p>
+    <p><button type="button" onclick="ex3()">현재날짜</button></p>
+    <hr />
+    <p id="ex4">확인</p>
+    <p><button type="button" id="ex4_btn">현재날짜</button></p>
+    <hr />
+    <p>id : <input type="text" id="ex5" onblur="ex5()" /></p>
+    <p onmouseover="ex6_1(this)" onmouseout="ex6_2(this)">확인</p>
+
+    <p onmousedown="ex7_1(this)" onmouseup="ex7_2(this)">확인</p>
+
+    <script>
+      document.getElementById("ex4_btn").onclick = ex4_js;
+      function ex4_js() {
+        var a1 = new Date();
+        var a2 = a1.getFullYear();
+        var a3 = a1.getMonth();
+        var a4 = a1.getDate();
+        var a5 = a1.getHours();
+        var a6 = a1.getMinutes();
+        var a7 = a1.getSeconds();
+        document.getElementById("ex4").innerHTML =
+          a2 + "년" + a3 + "월" + a4 + "일" + a5 + "시" + a6 + "분" + a7 + "초";
+      }
+    </script>
+  </body>
+</html>

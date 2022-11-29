@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+
+ul,
+li {
+    list-style: none;
+}
+
+body,
+div,
+table,
+caption,
+tr,
+th,
+td,
+span,
+br,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h3 {
+    font: normal 15px/1.5em "고딕", "Gothic", sans-serif;
+    color: #666666;
+}
+
+#wrap {
+    border: 1px solid #e1e0e0;
+    width: 400px;
+    height: 575px;
+    margin-left: 5px;
+    padding-top: 10px;
+    margin-top: 2px;
+}
+
+#wrap h2 {
+    color: #666666;
+    margin-bottom: 2px;
+}
+
+#tb {
+
+    padding-right: 32px;
+    width: 400px;
+    height: 505px;
+}
+
+#tb caption {
+    padding-left: 300px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#wrap th,
+td {
+
+    border-bottom: 1px solid #e1e0e0;
+    border-left: 1px solid #e1e0e0;
+    border-right: 1px solid #e1e0e0;
+
+}
+
+#wrap #tb {
+    border-collapse: collapse;
+}
+
+#tb tr th {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#wrap #tb tr th.tit {
+
+    text-align: right;
+    background-color: #eaeaea;
+    border-top: 2px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding-right: 30px;
+}
+
+#tb #tit2 {
+    width: 160px;
+}
+
+#tb #f15,
+#tb #f16 {
+    width: 120px;
+    height: 35px;
+}
+
+#wrap td {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#wrap #tb tr.sum {
+    background-color: #f5efd8;
+}
+
+#wrap ul {
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+#wrap ul li {
+    list-style: square;
+    font-size: 12px;
+    line-height: 1em;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#tb #bd1 th,
+#tb #bd1 td {
+    border-top: 1.5px solid black;
+}
+
+#tb #bd2 th,
+#tb #bd2 td {
+    border-bottom: 1.5px solid black;
+}

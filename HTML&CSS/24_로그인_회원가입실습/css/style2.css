@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body,
+div,
+h4,
+input,
+strong span,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#wrap {
+    width: 800px;
+    height: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #6c7073;
+}
+
+#wrap > p:nth-of-type(1) {
+    text-align: center;
+    background: url(../images/icon_caution.png)no-repeat 60px;
+    color: #747474;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#tel_box {
+    width: 800px;
+    height: 400px;
+    border: 1px solid #cecece;
+}
+
+#tel_box div {
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+#tel_box div:nth-of-type(1) {
+    float: left;
+    border-right: 1px solid #cecece;
+    background: url(../images/icon_phone.gif) no-repeat center center;
+}
+
+#tel_box div:nth-of-type(1) h4 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tel_box div:nth-of-type(1) p:nth-of-type(1) {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#tel_box div:nth-of-type(1) span {
+    display: block;
+}
+
+#tel_box div:nth-of-type(1) p:nth-of-type(2) {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+#tel_box div:nth-of-type(1) p:nth-of-type(2) input {
+    width: 150px;
+    height: 50px;
+    background-color: #348ec2;
+    color: white;
+    border: none;
+
+}
+
+#tel_box div:nth-of-type(2) {
+    float: left;
+    background: url(../images/icon_ipin.gif) no-repeat center center;
+}
+
+#tel_box div:nth-of-type(2) h4 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#tel_box div:nth-of-type(2) p:nth-of-type(1) {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#tel_box div:nth-of-type(2) span {
+    display: block;
+}
+
+#tel_box div:nth-of-type(2) p:nth-of-type(2) {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+#tel_box div:nth-of-type(2) p:nth-of-type(2) input {
+    width: 150px;
+    height: 50px;
+    background-color: #348ec2;
+    color: white;
+    border: none;
+
+}
+
+#wrap ul {
+    width: 760px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+
+}
+
+#wrap ul li {
+    list-style: square;
+    line-height: 1.5em;
+    font-size: 14px;
+
+}
+
+#wrap ul li strong {
+    color: #35383d;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

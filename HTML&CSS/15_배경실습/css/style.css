@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+div,
+p,
+img,
+h4,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+
+}
+
+#wrap {
+    width: 697px;
+    height: 520px;
+    padding-left: 10px;
+    border: 2px solid #eaeaea;
+
+}
+
+#wrap > h1 {
+    margin-top: 12px;
+}
+
+#wrap > h1 > img {
+    width: 4px;
+    height: 7px;
+    /*    margin-left: 5px;*/
+    margin-right: 10px;
+    border-radius: 120px;
+    padding: 7px;
+    /*    border: 2px solid black;*/
+    box-shadow: -1px -3px 10px 1px rgb(189, 189, 189);
+
+}
+
+#wrap > h1 > span {
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+#wrap > h2 {
+    background: url(../images/icon.gif) no-repeat left center;
+    text-indent: 13px;
+    color: #5e54c5;
+    margin-bottom: 20px;
+}
+
+#wrap p {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+#job div {
+
+    width: 330px;
+    height: 75px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    /*    padding-top: 3px;*/
+}
+
+#job div h3 {
+    color: #5b6bcb;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 90px;
+    font-size: 14px;
+}
+
+#job div p {
+    margin-left: 90px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+#job div:first-child {
+    background: #e4ebf5 url(../images/bg_1.png) no-repeat 16px center;
+}
+
+#job div:nth-child(2) {
+    background: #e4ebf5 url(../images/bg_2.png) no-repeat 16px center;
+}
+
+#job div:nth-child(3) {
+    background: #e4ebf5 url(../images/bg_3.png) no-repeat 16px center;
+}
+
+#job div:last-child {
+    background: #e4ebf5 url(../images/bg_4.png) no-repeat 16px center;
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/layout1.css">
+</head>
+
+<body>
+    <h2>4행 3열 표</h2>
+    <table id="ex1">
+        <caption>4행 3열</caption>
+        <tr>
+            <th scope="col" id="tit1">제목1</th>
+            <th scope="col" id="tit2">제목2</th>
+            <th scope="col" id="tit3">제목3</th>
+        </tr>
+        <tr>
+            <td class="ex1_1" headers="tit1">내용1</td>
+            <td class="ex1_2" headers="tit2">내용2</td>
+            <td class="ex1_3" headers="tit3">내용3</td>
+        </tr>
+        <tr>
+            <td class="ex1_4" headers="tit1">내용1</td>
+            <td class="ex1_5" headers="tit2">내용2</td>
+            <td class="ex1_6" headers="tit3">내용3</td>
+        </tr>
+        <tr>
+            <td headers="tit1">내용1</td>
+            <td headers="tit2">내용2</td>
+            <td headers="tit3">내용3</td>
+        </tr>
+
+
+    </table>
+    <hr>
+    <h2>3행 3열 표</h2>
+    <table id="ex2">
+
+        <caption>3행 3열</caption>
+        <tr>
+            <th scope="row" id="ti1">제목1</th>
+            <td headers="ti1">내용1</td>
+            <td headers="ti1">내용2</td>
+        </tr>
+        <tr>
+            <th scope="row" id="ti2">제목2</th>
+            <td headers="ti2">내용1</td>
+            <td headers="ti2">내용2</td>
+        </tr>
+        <tr>
+            <th scope="row" id="ti3">제목3</th>
+            <td headers="ti3">내용1</td>
+            <td headers="ti3">내용2</td>
+        </tr>
+
+
+    </table>
+    <hr>
+    <h2>3행 3열 표</h2>
+    <table id="ex3">
+        <caption>3행 3열</caption>
+        <tr>
+            <th>제목1</th>
+            <td>내용1</td>
+            <td>내용2</td>
+        </tr>
+        <tr>
+            <th>제목2</th>
+            <td></td>
+            <td>내용2</td>
+        </tr>
+        <tr>
+            <th>제목3</th>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+    <h2>셀병합</h2>
+    <table id="ex4">
+
+        <caption>영화제목</caption>
+        <tr>
+            <th scope="col">순위</th>
+            <th scope="col">제목</th>
+            <th scope="col">평점</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>A</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>C</td>
+            <td>*</td>
+        </tr>
+        <tr>
+            <td colspan="3">합계</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>표실습</h2>
+    <table id="ex5">
+        <caption>미라클코트 스킨 수딩 샴푸</caption>
+        <tr>
+            <th scope="row" id="skin1">경매번호</th>
+            <td colspan="3" headers="skin1">au20058128223</td>
+        </tr>
+        <tr>
+            <th scope="row" id="skin2">상품번호</th>
+            <td colspan="3" headers="skin2">미라클코트 스킨 수딩 샴푸 237ml </td>
+        </tr>
+        <tr>
+            <th scope="row" id="skin3">입찰자수</th>
+            <td headers="skin3">26 명</td>
+            <th id="skin4">판매수량</th>
+            <td headers="skin4">1개</td>
+        </tr>
+        <tr>
+            <th scope="row" id="skin5">경매기간</th>
+            <td colspan="3" headers="skin5">2005-08-12 오후 12:51:00 ~ 2005-08-18 오후 10:00:00</td>
+        </tr>
+        <tr>
+            <th scope="row" id="skin6">남은시간</th>
+            <td colspan="3" headers="skin6">00:00:00</td>
+        </tr>
+        <tr>
+            <th scope="row" id="skin7">시작가</th>
+            <td headers="skin7">100 원</td>
+            <th scope="row" id="skin8">현재가</th>
+            <td headers="skin8">5,700 원</td>
+        </tr>
+        <tr>
+            <th scope="row" id="skin9">즉시 구매가</th>
+            <td colspan="3" headers="skin9">10,000 원</td>
+        </tr>
+
+
+    </table>
+    <hr>
+    <h2>02_완성.jpg</h2>
+    <table id="ex6">
+        <caption>2012년 12월 17일(월) TV 영화 편성표</caption>
+        <tr>
+            <th scop="col" id="mol1" class="">시간</th>
+            <th scop="col" id="mol2">OCN</th>
+            <th scop="col" id="mol3">SUPER ACTION</th>
+            <th scop="col" id="mol4">채널 CGV</th>
+            <th scop="col" id="mol5">XTM</th>
+        </tr>
+        <tr>
+            <td headers="mol1">19시</td>
+            <td rowspan="2" headers="mol2">의뢰인</td>
+            <td headers="mol3">CSI MIAMI 시즌2(11회)</td>
+            <td headers="mol4">지구가 멈추는 날</td>
+            <td headers="mol5">Friends(20회)</td>
+        </tr>
+        <tr>
+            <td headers="mol1">20시</td>
+            <td headers="mol3">미트더 스파르탄</td>
+            <td rowspan="3" headers="mol4">공감랭크쇼</td>
+            <td headers="mol5">Friends(12회)</td>
+        </tr>
+        <tr>
+            <td headers="mol1">21시</td>
+            <td headers="mol2">CSI시즌2(12회)</td>
+            <td rowspan="3" headers="mol3">스워드 피쉬</td>
+            <td headers="mol5">가제트(81회)</td>
+        </tr>
+        <tr>
+            <td headers="mol1">22시</td>
+            <td headers="mol2">CSI시즌2(13회)</td>
+            <td headers="mol5">가제트(82회)</td>
+        </tr>
+        <tr>
+            <td headers="mol1">23시</td>
+            <td headers="mol2">더 록</td>
+            <td headers="mol4">탑기어</td>
+            <td headers="mol5">가제트(83회)</td>
+        </tr>
+        <tr>
+            <td colspan="5" headers="mol1 mol2 mol3 mol4 mol5">일간단위로 업데이트 되며, 방송사 사정에 따라 변경될 수 있습니다.</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>행그룹화 thead tbody tfoot</h2>
+    <table id="ex7">
+        <caption>행그룹화</caption>
+        <thead>
+            <tr>
+                <th scope="col">순위</th>
+                <th scope="col">제목</th>
+                <th scope="col">평점</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>A</td>
+                <td>**</td>
+            </tr>
+            <tr>
+                <td colspan="2">B</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>C</td>
+                <td>*</td>
+            </tr>
+        </tbody>
+        <tr>
+            <td colspan="3">합계</td>
+        </tr>
+
+    </table>
+    <hr>
+    <h2>03_완성.jpg</h2>
+    <h3></h3>
+    <img src="images/recipe.gif" alt="recipe">
+    <table id="ex8">
+        <caption>레시피 재료</caption>
+        <thead>
+            <tr>
+                <th scope="row" id="sh1">재료</th>
+                <th scope="row" id="sh2">첨가량</th>
+                <th scope="row" id="sh3">48시간</th>
+                <th scope="row" id="sh4">대체재료</th>
+            </tr>
+        </thead>
+        <tbody>
+            <th rowspan="5" scope="col" id="sh5" headers="sh1">수상층</th>
+            <td headers="sh2 sh5">로즈마리 추출물</td>
+            <td headers="sh3 sh5">30g</td>
+            <td rowspan="3" headers="sh4 sh5">증류수</td>
+            <tr>
+                <td headers="sh2 sh5">네틀추출물</td>
+                <td headers="sh3 sh5">30g</td>
+            </tr>
+            <tr>
+                <td headers="sh2 sh5">증류수</td>
+                <td headers="sh3 sh5">90g</td>
+            </tr>
+            <tr>
+                <td headers="sh2 sh5">폴리쿼터</td>
+                <td headers="sh3 sh5">1.5g</td>
+                <td heaers="sh4 sh5"> 쟁탄검</td>
+            </tr>
+            <tr>
+                <td headers="sh2 sh5">글리세린</td>
+                <td headers="sh3 sh5">1.5g</td>
+                <td headers="sh4 sh5">히아루론산 10g</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="col" id="sh6" headers="sh1">계면<br>활성제</th>
+                <td headers="sh2 sh6">LES/ CDE</td>
+                <td headers="sh3 sh6">180g / 10g</td>
+                <td headers="sh4 sh6">CDE + LES</td>
+            </tr>
+            <tr>
+                <td headers="sh2 sh6">코코베타인</td>
+                <td headers="sh3 sh6">5g</td>
+                <td headers="sh4 sh6">X</td>
+            </tr>
+            <tr>
+                <td headers="sh2 sh6">애플 계면 활성제</td>
+                <td headers="sh3 sh6">10g</td>
+                <td headers="sh4 sh6">올리브 계면 활성제</td>
+            </tr>
+        </tbody>
+        <tr>
+            <td colspan="4">좋은 향을 위해서면 엘라스틴향 사용 추천</td>
+        </tr>
+
+    </table>
+    <hr>
+    <h2>열그룹화 colgroup</h2>
+    <table id="ex9">
+       <caption>열그룹</caption>
+       <colgroup>
+           <col span="1" style="background-color:red;">    
+           <col span="2" style="background-color:green;">    
+           <col span="1" style="background-color:blue;">    
+       </colgroup>
+        <tr>
+            <th scope="col">제목1</th>
+            <th scope="col">제목2</th>
+            <th scope="col">제목3</th>
+            <th scope="col">제목4</th>
+        </tr>
+        <tr>
+            <td>내용1</td>
+            <td>내용2</td>
+            <td>내용3</td>
+            <td>내용4</td>
+        </tr>
+        <tr>
+            <td>내용1</td>
+            <td>내용2</td>
+            <td>내용3</td>
+            <td>내용4</td>
+        </tr>
+        <tr>
+            <td>내용1</td>
+            <td>내용2</td>
+            <td>내용3</td>
+            <td>내용4</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <h2>열그룹화</h2>
+    <table id="ex10">
+        <caption>열그룹화</caption>
+        <colgroup>
+            <col span="1" id="cg1">
+            <col span="1" id="cg2">
+            <col span="1" id="cg3">
+        </colgroup>
+        <tr>
+            <th scope="1">과목명</th>
+            <th scope="2">과정명</th>
+            <th scope="3">강의시간</th>
+        </tr>
+        <tr>
+            <td rowspan="3">웹표준</td>
+            <td>html</td>
+            <td>3시간</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>5시간</td>
+        </tr>
+        <tr>
+            <td>JQUERY</td>
+            <td>10시간</td>
+        </tr>
+        
+    </table>
+</body>
+
+</html>

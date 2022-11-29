@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* 
+height : auto (default)
+min-height : 최소 높이, 내용이 최소 높이보다 작으면 최소 높이가 적용됨, 내용이 최소높이보다 크면 적용되지않음
+max-height : 최대 높이, 내용이 최대 높이보다 크면 overflow, 내용이 최대높이보다 작으면 적용되지않음
+*/
+* {
+  box-sizing: border-box;
+}
+#wrap > p {
+  border: 1px solid #999999;
+  width: 50%;
+  margin: 10px auto;
+}
+.ex1 {
+  background-color: yellow;
+  height: 100px;
+}
+.ex2 {
+  background-color: green;
+  height: auto;
+}
+.ex3 {
+  background-color: orangered;
+  min-height: 100px;
+}
+.ex4 {
+  background-color: pink;
+  min-height: 100px;
+}
+.ex5 {
+  background-color: orange;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+.ex6 {
+  background-color: limegreen;
+  max-height: 100px;
+}
+.ex7 {
+  background-color: skyblue;
+  height: 130px;
+  min-width: 100px;
+}
+.ex8 {
+  background-color: navajowhite;
+  height: 130px;
+  min-width: 100px;
+}
+.ex9 {
+  background-color: olive;
+  height: 130px;
+  max-height: 100px;
+}
+.ex10 {
+  background-color: maroon;
+  height: 130px;
+  max-height: 100px;
+}

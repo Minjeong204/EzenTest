@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+body {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-family: "맑은 고딕", "MAlgun Gothic", "sans-serif"
+}
+
+#tbdiv {
+    background-color: rgb(89, 89, 89);
+    width: 450px;
+    height: 320px;
+    padding-bottom: 10px;
+}
+
+#tb {
+    color: white;
+    width: 440px;
+    height: 260px;
+    margin-left: 6px;
+    border-collapse: collapse;
+}
+
+#tb caption {
+    text-align: left;
+    text-decoration: underline;
+    margin-bottom: 6px;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+#tb th,
+#tb td {
+    height: 30px;
+}
+
+#tb th {
+    background-color: rgb(255, 102, 52);
+}
+
+#tb td {
+    text-align: center;
+    font-size: 10px;
+}
+
+#tb #fes1 {
+    width: 130px;
+}
+
+#tb #fes2 {
+    width: 70px;
+}
+
+#tb #fes3 {
+    width: 130px;
+}
+
+#tb #fes4 {
+    width: 90px;
+}

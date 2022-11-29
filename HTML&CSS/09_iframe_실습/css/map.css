@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.place {
+    color: rgb(120, 151, 58);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.place img {
+    width: 27px;
+    height: 22px;
+}
+
+.road > span{color: red;}
